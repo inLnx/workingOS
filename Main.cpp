@@ -3,6 +3,8 @@
 #include <string>
 #include <cmath>
 #include <fstream>
+#include <ctime>
+#include <iomanip>
 using namespace std;
 
 
@@ -27,11 +29,11 @@ int main()
     cout << "__________" << endl;
     cout << "|         |" << endl;
     cout << "|  ______ |" << endl;
-    cout << "|  |    | |" << endl;
+    cout << "| |    | |" << endl;
     cout << "| | Booting" << endl;
     cout << "| ------  |" << endl;
     cout << "----------" << endl;
-    cout << "Inlnx by techboy234 V1-(Testing Phase)" << endl;
+    cout << "Inlnx V0.5 (Testing Phase)" << endl;
     
 
 
@@ -68,7 +70,7 @@ int main()
             
          switch (appSelect) {
         case 1:
-            cout << "Commands. 1=commands 2=Notepad 3=<> 4=<>" << endl;
+            cout << "Commands. 1=commands 2=Notepad 3=profile 4=<>" << endl;
             break;
         case 2:
             cout << "Welcome to notepad. press enter to get text repeated"<< endl;
