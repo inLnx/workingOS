@@ -22,7 +22,9 @@ int main()
     int appSelect;
     //notepad varitable
     string Notepadtext;
-
+int numone;
+int numtwo;
+string oper;   
 
 
  // Password slash Bootup Sequence
@@ -70,7 +72,7 @@ int main()
             
          switch (appSelect) {
         case 1:
-            cout << "Commands. 1=commands 2=Notepad 3=profile 4=<>" << endl;
+            cout << "Commands. 1=commands 2=Notepad 3=profile 4=Calculator" << endl;
             break;
         case 2:
             cout << "Welcome to notepad. press enter to get text repeated"<< endl;
@@ -92,17 +94,17 @@ int main()
                 cout << "Correct";
             }
             else {
-                cout << "incorrect";
-            
-            
-            
-            
+                cout << "incorrect"
             }
             
             
             break;
         case 4:
-            cout << "Four" << endl;
+            cout << "Welcome to calculator" << endl;
+            cout << "enter first number" << endl;
+            cin >> numone
+            cout << "enter second" << endl;
+               
             break;
         case 5:
             cout << "Five" << endl;
