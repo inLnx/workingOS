@@ -102,13 +102,17 @@ int main()
             break;
         case 4:
             cout << "Welcome to calculator" << endl;
+            cout << "addition only" << endl;   
             cout << "enter first number" << endl;
-            cin >> numone
+            cin >> numone;
             cout << "enter second" << endl;
+            cin >> numtwo; 
+               
+               cout << numone + numtwo  ; 
                
             break;
         case 5:
-            cout << "Five" << endl;
+            cout << "ERROR! CODE 1D5" << endl;
             break;
         case 6:
             cout << "Six" << endl;
