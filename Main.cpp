@@ -22,15 +22,16 @@ int main()
     int appSelect;
     //notepad varitable
     string Notepadtext;
-int numone;
-int numtwo;
-string oper;   
+   
 
 
  // Password slash Bootup Sequence
     cout << "__________" << endl;
     cout << "|         |" << endl;
     cout << "|  ______ |" << endl;
+     int numone;
+    int numtwo;
+    string oper;
     cout << "| |    | |" << endl;
     cout << "| | Booting" << endl;
     cout << "| ------  |" << endl;
