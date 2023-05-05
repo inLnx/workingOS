@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -23,7 +22,7 @@ int main()
     //notepad varitable
     string Notepadtext;
    
-
+int applooper = 5;
 
  // Password slash Bootup Sequence
     cout << "__________" << endl;
@@ -68,7 +67,8 @@ int main()
         cin >> appSelect;
 
         
-        
+        if (applooper == 5){
+          
         
             
          switch (appSelect) {
@@ -95,7 +95,7 @@ int main()
                 cout << "Correct";
             }
             else {
-                cout << "incorrect"
+                cout << "incorrect";
             }
             
             
@@ -112,7 +112,7 @@ int main()
                
             break;
         case 5:
-            cout << "ERROR! CODE 1D5" << endl;
+            cout << "5" << endl;
             break;
         case 6:
             cout << "Six" << endl;
@@ -127,14 +127,14 @@ int main()
             cout << "Nine" << endl;
             break;
         case 10:
-           cout << "endl" << endl; 
+           cout << "Powering off" << endl; 
             break;
         default:
             cout << "E R R O R : A P P  N O T  F O U N D" << endl;
             break;
     }
 }
-
+    }
 
 
 
@@ -159,3 +159,4 @@ int main()
     };
 
 }
+
