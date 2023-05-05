@@ -127,10 +127,10 @@ int main()
             cout << "Nine" << endl;
             break;
         case 10:
-            cout << "ten" << endl;
+           cout << "endl" << endl; 
             break;
         default:
-            cout << "Error: App not found" << endl;
+            cout << "E R R O R : A P P  N O T  F O U N D" << endl;
             break;
     }
 }
