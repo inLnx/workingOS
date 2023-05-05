@@ -7,9 +7,10 @@ This is an open source experiment made to compete against bigger companies.
 #Lightweight ~5mb
 
 
-
-
 #Good for business
 
+____________IMPORTANT__________
 
+Calcualator only adds 
 
+Program ends once app is finished. More in chat
