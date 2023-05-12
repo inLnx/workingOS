@@ -73,7 +73,7 @@ int applooper = 5;
             
          switch (appSelect) {
         case 1:
-            cout << "Commands. 1=commands 2=Notepad 3=profile 4=Calculator" << endl;
+            help()
             break;
         case 2:
             cout << "Welcome to notepad. press enter to get text repeated"<< endl;
@@ -135,8 +135,14 @@ int applooper = 5;
     }
 }
     }
+void help(){
+cout << "Commands. 1=commands 2=Notepad 3=profile 4=Calculator" << endl;
 
 
+
+}
+
+   
 
 
 
