@@ -137,7 +137,7 @@ int applooper = 5;
     }
 void help(){
 cout << "Commands. 1=commands 2=Notepad 3=profile 4=Calculator" << endl;
-cout << "returing to app menu"
+cout << "returing to app menu";
 main()   
 
 
